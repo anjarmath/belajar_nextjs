@@ -16,8 +16,6 @@ export default function Home() {
   const [counter, setCounter] = useState(0);
   return (
     <div>
-      <NavBar />
-
       <div className=" w-full h-screen flex flex-col gap-3 justify-center items-center">
         <Card>
           <CardHeader>
